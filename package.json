@@ -4,7 +4,7 @@
   "description": "Scaffold a new Filament application",
   "type": "module",
   "bin": {
-    "create-filament": "./dist/index.js"
+    "create-filament": "dist/index.js"
   },
   "files": [
     "dist",
