@@ -1,0 +1,38 @@
+{
+  "name": "create-filament",
+  "version": "1.0.0",
+  "description": "Scaffold a new Filament application",
+  "type": "module",
+  "bin": {
+    "create-filament": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "filament",
+    "scaffold",
+    "typescript",
+    "api",
+    "framework"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/prompts": "^2.4.9",
+    "typescript": "^5.0.0",
+    "test-battery": "^3.2.1"
+  }
+}
